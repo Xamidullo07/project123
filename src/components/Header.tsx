@@ -1,8 +1,8 @@
-import React from 'react';
-import { User } from 'lucide-react';
+import React from "react";
+import { User } from "lucide-react";
 
 export const Header: React.FC = () => {
-  const username = "Demo User"; // In a real app, this would come from authentication
+  const username = "Demo User";
 
   return (
     <header className="bg-gray-800 text-white p-4 border-b border-gray-700">
